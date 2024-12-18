@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,11 +20,7 @@ export default function Home() {
             </code>
             .
           </li>
-          <li>Working on project.</li>
-          <li>
-            <Link href={ "/league_sched" }>League Schedule Page</Link>
-          </li>
-          <Link href={ "/game_info" }>Game Odds Tonight</Link>
+          <li>ODDS PAGE</li>
         </ol>
       </main>
     </div>
